@@ -5,45 +5,276 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Yu-Ting Chen's web</title>
-    <link rel="stylesheet" href=".\index_css.css">
+    <title>Yu-Ting Chen's Web</title>
+    <link rel="stylesheet" href="./css/index_css.css">
 </head>
 
 <body>
-    <div class="header ">
-        <h1 class="bigheader">Brian's Website</h1>
-        <!-- <h2 class="bigheader">國立臺灣大學法律學系財經法學組</h2> -->
+    <div class="toptop">
+        <div class="header ">
+            <h1 class="bigheader">Brian's Website</h1>
+            <!-- <h2 class="bigheader">國立臺灣大學法律學系財經法學組</h2> -->
+        </div>
+        <div class="topnav ">
+            <a class="normal" href="./index.html ">關於我</a>
+            <a class="normal" href="./exp.html ">經歷</a>
+            <a class="normal" href="./rewards.html">獲獎</a>
+            <a class="normal" href="./teaching.html">教學</a>
+            <a class="normal" href="./study.html">資源</a>
+            <a class="normal" href="./work.html ">作品</a>
+            <a class="normal" href="./contact.html">聯絡</a>
+            <a class="hidden" href="./CPstudygroup.html">　　</a>
+        </div>
     </div>
-    <div class="topnav ">
-        <a href="./index.html ">關於我</a>
-        <a href="./learn.html">學歷</a>
-        <a href="./exp.html ">經歷</a>
-        <a href="#pro ">專業</a>
-        <a href="#lec ">教學</a>
-        <a href="#res ">資源</a>
-        <a href="#res ">作品</a>
-        <a href="#res ">聯絡</a>
-    </div>
-
+    <!-- Top row:intro -->
     <div class="row ">
-        <div class="column left"></div>
-        <div class="column middle ">
-            <h3>陳昱廷 Brian Chen</h3>
-            <p>民國85年生，金牛座，台北人。</p>
-            <p>臺大法律財法組，雙主修經濟系。</p>
-            <p>轉系生，以前念政治。</p>
-            <p>環保主義者，愛看書。</p>
-            <p>最喜歡的 Late night show host 是 Conan O'brien.</p>
-            <p>最喜歡的歌手是田馥甄。</p>
-            <p>最喜歡的 Youtuber 是台客劇場。</p>
-        </div>
-        <div class="column right image">
-            <img class="mypic" src="./img/my_picture.JPG" alt="my picture">
-        </div>
+        <div class="column left "></div>
+        <div class="column middle">
+            <h3>陳昱廷 Brian Chen <a href="./CV.pdf" target="_blank">[CV]</a></h3>
+            <!-- <p class="jgirl">1996年生，金牛座，臺北人<a href="https://bit.ly/2DZspQP">。</a></p> -->
+            <p class="jgirl">1996年生，金牛座，臺北人<a href="https://ceiba.ntu.edu.tw/">。</a></p>
+            <p class="jgirl">臺大法律財法組，雙主修經濟系。</p>
+            <p class="jgirl">未來研究方向與興趣為量化研究<a href="./print.html">。</a></p>
+            <p class="jgirl">微環保主義者，喜歡看法律之外的書<a href="https://www.overleaf.com/project">。</a></p>
+            <p>最喜歡的 Host 是 Conan O'brien.</p>
+            <p>最喜歡的歌手是田馥甄 Hebe Tien。</p>
+            <p>願望是國青711回來與老師準時下課。</p>
 
+        </div>
+        <div class="column right image ">
+            <img class="mypic " src="./img/my_picture.JPG " alt="my picture ">
+        </div>
     </div>
+    <!-- div for horizontal line -->
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <hr>
+        </div>
+        <div class="column right "></div>
+    </div>
+    <!-- second row for education level -->
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <p><b>學歷 Educational Background</b></p>
+            <ul>
+                <li style="padding: 5px 0px 5px 0px">臺北市立麗山國民小學</li>
+                <li style="padding: 5px 0px 5px 0px">臺北市立西松國民小學</li>
+                <li style="padding: 5px 0px 5px 0px">臺北市私立延平高級中學國中部</li>
+                <li style="padding: 5px 0px 5px 0px">臺北市私立延平高級中學</li>
+                <li style="padding: 5px 0px 5px 0px">國立臺灣大學政治學系政治理論組</li>
+                <li style="padding: 5px 0px 5px 0px">國立臺灣大學法律學系財經法學組</li>
+                <li style="padding: 5px 0px 5px 0px">國立臺灣大學經濟學系（雙主修）</li>
+                <li style="padding: 5px 0px 5px 0px">國立臺灣大學師資培育中心教育學程</li>
+                <li style="padding: 5px 0px 5px 0px">國立臺灣大學法律研究所 民事法組</li>
+            </ul>
+            <!-- <table>
+                <tr class="tr_height">
+                    <td>2002-2008</td>
+                    <td>台北市立麗山國民小學</td>
+                </tr>
+                <tr class="tr_height">
+                    <td>2008-2009</td>
+                    <td>台北市立西松國民小學</td>
+                </tr>
+                <tr class="tr_height">
+                    <td>2009-2011</td>
+                    <td>臺北市私立延平高級中學國中部 重點班</td>
+                </tr>
+                <tr class="tr_height">
+                    <td>2011-2014</td>
+                    <td>臺北市私立延平高級中學 直升班</td>
+                </tr>
+                <tr class="tr_height">
+                    <td>2014-2015</td>
+                    <td>國立臺灣大學政治學系政治理論組</td>
+                </tr>
+                <tr class="tr_height">
+                    <td>2015-</td>
+                    <td>國立臺灣大學法律學系財經法學組</td>
+                </tr>
+                <tr class="tr_height">
+                    <td>2015-</td>
+                    <td>國立臺灣大學經濟學系（雙主修）</td>
+                </tr>
+                <tr class="tr_height">
+                    <td>2015-</td>
+                    <td>國立臺灣大學師資培育中心教育學程</td>
+                </tr>
+            </table> -->
+        </div>
+        <div class="column right image ">
+            <img class="pic_row2 " src="./img/graduation.jpg" alt="graduation ">
+        </div>
+    </div>
+    <!-- div for horizontal line -->
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <hr>
+        </div>
+        <div class="column right "></div>
+    </div>
+    <!-- Third row for profession -->
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <p><b>程式語言 Programming Language</b></p>
+            <p>C / C++ / Python / R / Stata / Html / Css / Latex</p>
+
+        </div>
+        <div class="column right image ">
+
+        </div>
+    </div>
+    <!-- fourth row for professional pic -->
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <img class="pic_cen" src="./img/pro01_C.jpg" alt="C01">
+
+        </div>
+        <div class="column right ">
+            <img class="pic_cen" src="./img/pro02_C.jpg" alt="C02">
+        </div>
+    </div>
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <img class="pic_cen" src="./img/pro04_R.jpg" alt="R04">
+
+        </div>
+        <div class="column right ">
+            <img class="pic_cen" src="./img/pro05_R.jpg" alt="R05">
+        </div>
+    </div>
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle final">
+            <img style="width: 80%;" src="./img/pro03_C.JPG" alt="C03">
+        </div>
+    </div>
+    <!-- div for horizontal line
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <hr>
+        </div>
+        <div class="column right "></div>
+    </div> -->
+    <!-- Fourth row for pic
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <p><b>合照 Photo</b></p>
+        </div>
+        <div class="column right image ">
+        </div>
+    </div>
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <img class="pic_cen" src="./img/copic/chang.JPG" alt="chang">
+
+        </div>
+        <div class="column right ">
+            <img class="pic_cen" src="./img/copic/formerpresident.JPG" alt="Lee">
+        </div>
+    </div>
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <img class="pic_cen" src="./img/copic/ghe.JPG" alt="ghe">
+
+        </div>
+        <div class="column right ">
+            <img class="pic_cen" src="./img/copic/hsin.JPG" alt="hsin">
+        </div>
+    </div>
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <img class="pic_cen" src="./img/copic/huang.jpg" alt="huang">
+
+        </div>
+        <div class="column right ">
+            <img class="pic_cen" src="./img/copic/ku.jpg" alt="ku">
+        </div>
+    </div>
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <img class="pic_cen" src="./img/copic/long.JPG" alt="long">
+
+        </div>
+        <div class="column right ">
+            <img class="pic_cen" src="./img/copic/meat.JPG" alt="meat">
+        </div>
+    </div>
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <img class="pic_cen" src="./img/copic/pcyang.JPG" alt="pcyang">
+
+        </div>
+        <div class="column right ">
+            <img class="pic_cen" src="./img/copic/pd_code.JPG" alt="pdcode">
+        </div>
+    </div>
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <img class="pic_cen" src="./img/copic/president.jpg" alt="president">
+
+        </div>
+        <div class="column right ">
+            <img class="pic_cen" src="./img/copic/thai.JPG" alt="thai">
+        </div>
+    </div>
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <img class="pic_cen" src="./img/copic/tmwu.jpg" alt="tmwu">
+
+        </div>
+        <div class="column right ">
+            <img class="pic_cen" src="./img/copic/tse.JPG" alt="tse">
+        </div>
+    </div>
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <img class="pic_cen" src="./img/copic/tu.JPG" alt="tu">
+
+        </div>
+        <div class="column right ">
+            <img class="pic_cen" src="./img/copic/wang.JPG" alt="wang">
+        </div>
+    </div>
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <img class="pic_cen" src="./img/copic/wenliang.JPG" alt="wenliang">
+
+        </div>
+        <div class="column right ">
+            <img class="pic_cen" src="./img/copic/yeh.jpg" alt="yeh">
+        </div>
+    </div>
+    <div class="row ">
+        <div class="column left "></div>
+        <div class="column middle ">
+            <img class="pic_cen" src="./img/copic/yulawer.JPG" alt="yulawyer">
+
+        </div>
+        <div class="column right ">
+            <img class="pic_cen" src="./img/copic/pd_youth.JPG" alt="pd_youth">
+        </div>
+    </div> -->
+
     <div class="footer ">
-        <p>footer</p>
+        <br><br>
     </div>
 
 </body>
